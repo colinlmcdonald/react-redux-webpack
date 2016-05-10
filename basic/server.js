@@ -1,6 +1,5 @@
 var express = require('express');
 var path = require('path');
-var httpProxy = require('http-proxy');
 var publicPath = path.resolve(__dirname, 'public');
 
 var port = 3000;
