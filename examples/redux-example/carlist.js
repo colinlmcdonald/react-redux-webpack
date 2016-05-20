@@ -4,8 +4,8 @@ import Car from './car'
 const CarList = ({cars, service}) => (
   <div>{service}
     <div>
-      {cars.map((car) => {
-        return <Car car={car} />
+      {cars.map((car, i) => {
+        return <Car car={car} key={i}/>
       })}
     </div>
   </div>
