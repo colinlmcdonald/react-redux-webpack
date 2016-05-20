@@ -2,17 +2,17 @@ var path = require('path')
 var webpack =require('webpack')
 
 module.exports = {
-
-  //fastest rebuild and build speed
+  //entry point for bundling
   entry: [
-    //our entry point
     './index.js' 
   ],
+  //the output path and filename
   output: {
     path: path.join(__dirname, 'public', 'build'),
     filename: 'bundle.js',
   },
 
+  //babel-loader for use with jsx and es2015, does not transpile the node_modules folder
   module: {
     loaders: [
       {

@@ -11,7 +11,7 @@ module.exports = {
     //refreshes the browser when it can't hot update
     'webpack-dev-server/client?http://localhost:8080', 
     //our entry point
-    './index.js' 
+    './carshop.js' 
   ],
   output: {
     path: path.join(__dirname, 'public', 'build'),
