@@ -49,7 +49,7 @@ It also uses the react-redux module to implicitly pass down your store to your c
 
 node server.js
 
-This example uses the 'development' webpack with express example mentioned previously. The example is a car shop which has different services. As you click on the different radio buttons, it updates the state with the chosen service. As you click 'add car' a car with that service is added to the corresponding queue. The UI/UX leaves much to be desired, but it shows some basic functionality with React, forms, and utilizing some of the cool things that are capable in ES2015.
+This example uses the 'development' webpack with express example mentioned previously. The example is a car shop which has different services. As you click on the different radio buttons, it updates the state with the chosen service. As you click 'add car' a car with that service is added to the corresponding queue. The UI/UX leaves much to be desired, but it shows some basic functionality with React, forms, and utilizing some of the cool things that are capable in ES2015. See the comments for more information.
 
 # Redux Example
 ## To Start
