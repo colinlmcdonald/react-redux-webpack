@@ -19,7 +19,7 @@ app.use(express.static(publicPath));
 // put it in the "if" block below
 
 if (!isProduction) {
-  var bundle = require('./server/compiler.js')
+  var bundle = require('./compiler/compiler.js')
   bundle()
   app.all('/build/*', function (req, res) {
     proxy.web(req, res, {
