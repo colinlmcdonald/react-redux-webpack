@@ -1,6 +1,8 @@
 # Introduction
 As I was trying to learn the React ecosystem I had a hard time finding the barebones that I needed in order to start a project. My goal with this repo is to show the minimum that it takes to get a project off the ground in React using Webpack with a server. It has since grown to show a couple of examples--one in just React, and the other converted from just React to React and Redux.
 
+Read more about webpack here: https://medium.com/@colinlmcdonald/webpack-ec0dddea1195#.1z425oes1
+
 ## Installation
 In any of the folders run:
 
